@@ -12,7 +12,7 @@ class Design extends CI_Controller
         $this->load->model('productos');
     }
 
-
+    //Paso 1: Lista las categorias de productos.
     public function listarCategorias()
     {
 
@@ -22,11 +22,9 @@ class Design extends CI_Controller
         $this->load->view('design/categorias',$data);
     }
 
-
+    //Paso 2: Recibe la categoria elegida y filtra los productos asociados.
     public function categoriaElegida()
     {
-        //$data['categoria']=$this->input->post("categoria");
-
         $categoria=$this->input->post('categoria');
         $data['productos']=$this->productos->buscarTodos($categoria);
 
@@ -34,19 +32,33 @@ class Design extends CI_Controller
         $this->load->view('design/productos',$data);
     }
 
-
+    //Paso 3: Recibe los datos del producto elegido.
     public function productoElegido()
     {
-        $data["idProducto"] = $this->input->post('idProducto');
+        $producto = $this->input->post('grilla');
 
-        $idProducto = $data["idProducto"];
-        $data['productoEncontrado']=$this->productos->buscar($idProducto);
+        //Separa el id del producto y el nombre del producto que provienen juntos separados por una coma.
+        $id_nombre_producto=$producto["id_producto"];
+        $datos=explode(",", $id_nombre_producto);
 
+        //Se asigna el id del producto al array.
+        $producto["id_producto"]=$datos[0];
+
+        //Se busca el producto por su id y recibe los datos asociados (sku, id_imagen, url_imagen)
+        //ademas de los ya existentes (id_producto, id_categoria).
+        $productoEncontrado = $this->productos->buscar($producto);
+
+        //Se asigna el nombre del producto (titulo).
+        $productoEncontrado[0]["nombre_producto"]=$datos[1];
+
+        $data['productoEncontrado'] = $productoEncontrado;
+
+        //Se envia a la pantalla donde se carga la imagen para recortar.
         $this->load->view('header');
         $this->load->view('design/productoElegido',$data);
     }
 
-
+    //Paso 4: Se recibe la data de la imagen recortada y se convierte a un archivo para ser almacenada
     public function guardarEstampado()
     {
         $productoTerminado = $this->input->post('grilla');
@@ -61,8 +73,8 @@ class Design extends CI_Controller
         file_put_contents('wp-content/uploads/image.png', $img);
         $img = base64_decode(preg_replace('#^data:image/\w+;base64,#i', '', $img));
         */
+
         //Convierte la data de la imagen en un archivo.
-        $fecha = date("YmdHis");
         if (preg_match('/^data:image\/(\w+);base64,/', $img, $type)) {
             $img = substr($img, strpos($img, ',') + 1);
             $type = strtolower($type[1]); // jpg, png, gif
@@ -79,91 +91,28 @@ class Design extends CI_Controller
         } else {
             throw new \Exception('did not match data URI with image data');
         }
-        $url= "wp-content/uploads/".$fecha.".".$type;
+
+        //Se crea una variable fecha para dar nombre al archivo de imagen.
+        $fecha = date("YmdHis");
+        //Se forma la url donde esta almacenada la imagen.
+        $url = "wp-content/uploads/".$fecha.".".$type;
+
+        //Se guardar el archivo en la ubicacion indicada.
         file_put_contents($url, $img);
         //file_put_contents("wp-content/uploads/img.{$type}", $img);
 
+        //Se asocia la url de la imagen recortada al producto.
         $productoTerminado['imagenRecortada'] = $url;
+
+        //Se busca el nombre de la categoria para asociarla al producto y
+        //crear el link para enviar los datos del producto al carrito.
+        $productoTerminado['nombre_categoria']=$this->categorias->nombreCategoria($productoTerminado);
         $data['productoTerminado'] = $productoTerminado;
+
+        //Se envia a la ultima vista donde se ve finalizada la edicion y con el link para añadir al carrito de compras
         $this->load->view('header');
         $this->load->view('design/productoTerminado',$data);
     }
 
-
-
-    //////////////////////////////////
-
-    public function nuevo()
-    {
-        $this->load->model('plan');
-        $data['planes']=$this->plan->listar();
-
-        $this->load->model('datos');
-        $data['datos']=$this->datos->listar();
-
-        $this->load->view('header');
-        $this->load->view('navbar');
-        $this->load->view('design/nuevo',$data);
-    }
-
-    public function guardar()
-    {
-        $this->load->model('Categorias');
-        $this->load->model('rel_plan_datos');
-
-        $linea=$this->input->post('design[]');
-
-        //Envio el array design sin el idPlanDatos y me lo devuelve con id para despues guardarlo en la design
-        $linea=$this->rel_plan_datos->guardar($linea);
-        $this->linea->guardar($linea);
-
-        $this->listar();
-    }
-
-    public function editar()
-    {
-        $this->load->model('Categorias');
-        $data['Design']=$this->linea->listar();
-
-        $this->load->model('plan');
-        $data['planes']=$this->plan->listar();
-
-        $this->load->model('datos');
-        $data['datos']=$this->datos->listar();
-
-        $this->load->view('header');
-        $this->load->view('navbar');
-        //$this->load->view('design/headerTablaLineas');
-        $this->load->view('design/editar',$data);
-        $this->load->view('design/footerTabla');
-    }
-
-    public function actualizar()
-    {
-        $this->load->model('Categorias');
-        $this->load->model('rel_plan_datos');
-        $grilla=$this->input->post('grilla[]');
-
-        $i=0;
-        foreach($grilla as $linea)
-        {
-            if($linea['modificado']==1)
-            {
-                $lineas[$i]["id"]=$linea["id"];
-                $lineas[$i]["numero"]=$linea["numero"];
-                $lineas[$i]["estado"]=$linea["estado"];
-                $lineas[$i]["estadoFecha"]=$linea["estadoFecha"];
-                $lineas[$i]["idPlanDatos"]=$linea["idPlanDatos"];
-                $lineas[$i]["idPlan"]=$linea["idPlan"];
-                $lineas[$i]["idDatos"]=$linea["idDatos"];
-                $lineas[$i]["observaciones"]=$linea["observaciones"];
-                $i++;
-            }
-        }
-
-        $lineas=$this->rel_plan_datos->actualizar($lineas);
-        $this->linea->actualizar($lineas);
-        $this->listar();
-    }
 
 }

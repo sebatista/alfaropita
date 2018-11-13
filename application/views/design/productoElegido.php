@@ -10,15 +10,18 @@
         </div>
     </div>
 
-
-    <form method="POST" action="guardarEstampado" name="grilla">
     <div class="row">
         <div class="col-md-6">
+            <form method="POST" action="guardarEstampado" name="grilla">
             <?php foreach ($productoEncontrado as $producto): ?>
                 <div style="background-image: url(<?php echo base_url(); ?>wp-content/uploads/<?php echo $producto["url_imagen"]; ?>); height: 800px; width: 1000px;">
-                    <input type="hidden" name="grilla[idProducto]" value="<?php echo $producto["id"]; ?>">
+                    <input type="hidden" name="grilla[idProducto]" value="<?php echo $producto["id_producto"]; ?>">
+                    <input type="hidden" name="grilla[nombre_producto]" value="<?php echo $producto["nombre_producto"]; ?>">
+                    <input type="hidden" name="grilla[sku]" value="<?php echo $producto["sku"]; ?>">
                     <input type="hidden" name="grilla[idImagen]" value="<?php echo $producto["id_imagen"]; ?>">
                     <input type="hidden" name="grilla[urlImagen]" value="<?php echo base_url(); ?>wp-content/uploads/<?php echo $producto["url_imagen"]; ?>">
+                    <input type="hidden" name="grilla[id_categoria]" value="<?php echo $producto["id_categoria"]; ?>">
+                    <input type="hidden" name="grilla[nombre_categoria]" value="">
                     <input type="hidden" name="grilla[imagenRecortada]" id="imagenRecortada" value="">
 
                     <div style="padding: 300px 0;">
@@ -26,6 +29,8 @@
                     </div>
                 </div>
             <?php endforeach; ?>
+            <button type="submit" class="btn btn-primary">Continuar</button>
+            </form>
         </div>
 
         <div class="cropHolder col-md-12">
@@ -64,7 +69,7 @@
             </div>
         </div>
     </div>
-    </form>
+
 </div>
 
 <script>

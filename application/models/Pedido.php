@@ -9,27 +9,27 @@ class Pedido
         $db=new database();
         $db->conectar();
 
-        $consulta=" SELECT id, post_title
-                    FROM wp_posts POS
-                    JOIN wp_term_relationships REL ON POS.ID = REL.object_id
-                    JOIN wp_term_taxonomy TAX ON REL.term_taxonomy_id = TAX.term_taxonomy_id
-                    JOIN wp_terms TER ON TAX.term_id = TER.term_id
-                    WHERE TER.term_id = '$categoria'";
+        $consulta = "SELECT order_item_id, order_item_name, order_item_type, IMG.order_id, url_cropped_img
+                    FROM wp_woocommerce_order_items ORD, wp_woocommerce_order_img_cropped IMG
+                    WHERE ORD.order_id = IMG.order_id";
 
         $resultado=mysqli_query($db->conexion, $consulta)
-        or die ("No se pueden mostrar los Productos.");
+        or die ("No se pueden mostrar los pedidos.");
 
-        $productos = array(array("id", "post_title"));
+        $pedidos = array(array("order_item_id", "order_item_name", "order_item_type", "order_id", "url_cropped_img"));
 
         $i=0;
-        while($producto = mysqli_fetch_assoc($resultado))
+        while($pedido = mysqli_fetch_assoc($resultado))
         {
-            $productos[$i]["id"]=$producto["id"];
-            $productos[$i]["post_title"]=$producto["post_title"];
+            $pedidos[$i]["order_item_id"]=$pedido["order_item_id"];
+            $pedidos[$i]["order_item_name"]=$pedido["order_item_name"];
+            $pedidos[$i]["order_item_type"]=$pedido["order_item_type"];
+            $pedidos[$i]["order_id"]=$pedido["order_id"];
+            $pedidos[$i]["url_cropped_img"]=$pedido["url_cropped_img"];
             $i++;
         }
 
-        return $productos;
+        return $pedidos;
     }
 
 

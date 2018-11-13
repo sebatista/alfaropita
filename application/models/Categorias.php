@@ -4,6 +4,7 @@ include_once "database.php";
 
 class Categorias
 {
+    //sin uso
     public function listar_campos()
     {
         $db = new database();
@@ -22,6 +23,7 @@ class Categorias
 
         return $nombres_campos;
     }
+
 
     public function listar()
 	{
@@ -56,6 +58,22 @@ class Categorias
 
 	return $categorias;
 	}
-    
+
+
+    public function nombreCategoria($productoTerminado)
+    {
+        $db=new database();
+        $db->conectar();
+
+        $consulta=" SELECT *
+                    FROM wp_terms
+                    WHERE term_id = ".$productoTerminado['id_categoria'].";";
+
+        $resultado=mysqli_query($db->conexion, $consulta)
+        or die ("No se pueden mostrar las Categorias.");
+
+        $categoria = mysqli_fetch_assoc($resultado);
+        return $categoria["slug"];
+    }
 }		
 ?>

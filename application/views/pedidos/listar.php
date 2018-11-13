@@ -1,19 +1,15 @@
 <?php
 
-foreach($categorias as $categoria)
+foreach($pedidos as $pedido)
 {
     echo'    
-	<tr>	
-        <td>'.$categoria["term_id"].'</td>
-        <td>'.$categoria["name"].'</td>
-        <td>'.$categoria["slug"].'</td>
-        <td>'.$categoria["term_group"].'</td>
-        <td>'.$categoria["term_taxonomy_id"].'</td>
-        <td>'.$categoria["term_id"].'</td>
-        <td>'.$categoria["taxonomy"].'</td>
-        <td>'.$categoria["description"].'</td>
-        <td>'.$categoria["parent"].'</td>
-        <td>'.$categoria["count"].'</td>
+	<tr>
+        <td>'.$pedido["order_item_id"].'</td>
+        <td>'.$pedido["order_item_name"].'</td>
+        <td>'.$pedido["order_item_type"].'</td>
+        <td>'.$pedido["order_id"].'</td>
+        <td>'.$pedido["url_cropped_img"].'</td>
+        <td><button onclick="imprimir()">Bajar</button></td>
     </tr>  		
     ';
 }

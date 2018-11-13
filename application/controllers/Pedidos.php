@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Design extends CI_Controller
+class Pedidos extends CI_Controller
 {
     /*http://midominio.com/controlador/metodo/parametro*/
     public function __construct()
