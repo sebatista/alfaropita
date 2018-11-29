@@ -1,0 +1,96 @@
+SKU,Marca,Producto,Categoria,Modelo,Origen,Talles,Temporada,Colores,Tela,Precio,Imagen,Galeria
+100,LDE,CAJA RECIBIDORA ,Cajas,OCB,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+101,LDE,SET RECIBIDOR COMPLETO,Cajas,1920,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+102,LDE,CAJA AJUAR COMPLETO,Cajas,1900,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+103,LDE,CAJA NENAS HADAS,Cajas,2002,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+104,LDE,CAJA NENAS CUPCAKES,Cajas,2004,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+105,LDE,CAJA VARÓN BORDADO PERRITO,Cajas,2001,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+106,LDE,CAJA VARÓN OSO ,Cajas,2003,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+107,LDE,CAJA GATITO HELLO,Cajas,2038,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+108,LDE,CAJA NENA GATITO CON BODY,Cajas,2040,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+109,LDE,CAJA NENA BRODERY CORAZON ,Cajas,2057,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+110,LDE,CAJA VARÓN MARINERO,Cajas,2068,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+111,LDE,CAJA VARÓN ESTRELLA ACT,Cajas,2008,ARGENTINA ,0,1,2,2018/2019,azul, verde,,350,T_5_front.jpg,T_5_back.jpg
+112,LDE,CAJA VARÓN CON BODY,Cajas,2039,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+113,LDE,JARDINERO CUADRO,Body,1869,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+114,LDE,ENTERITO ALGON RAYADO OREJITAS ,Body,2022,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+115,LDE,ENTERITO CORTO VARÓN ANIMALITOS ,Body,2021,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+116,LDE,ENTERITO JERSEY ,Body,1885,ARGENTINA ,0,1,2,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+117,LDE,BODY CAMISA ESTAMPADO,Body,2084,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,300,T_5_front.jpg,T_5_back.jpg
+118,LDE,BODY CHOMBA VARON PALMERAS,Body,2010,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,250,T_5_front.jpg,T_5_back.jpg
+119,LDE,BODY MUSCULOSO ESTAMPADO,Body,2014,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,200,T_5_front.jpg,T_5_back.jpg
+120,LDE,BODY NENA LOVE LENTEJUELAS,Body,2023,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+121,LDE,CAMPERA DE JEANS C/MANGAS RUSTICO,Camperas,1559,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+122,LDE,CONJ. INTER. NENA Y VARON CON BORDADO ESPAL,Conjuntos,1520,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+123,LDE,CONJ VARON RUSTICO PALMERAS,Conjuntos,1867,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+124,LDE,CONJ NENA RUSTICO ESTAMPADO,Conjuntos,1857,ARGENTINA ,0,1,2,3,4,5,2018/2019,azul, verde,,1,T_5_front.jpg,T_5_back.jpg
+125,LDE,CONJ INTERLOCK NENA CORAZONES ,Conjuntos,1852,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,500,T_5_front.jpg,T_5_back.jpg
+126,LDE,BODY CHOMBA VARON CACTUS ,Body,1823,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+127,LDE,BODY NENA CON MOÑO ESTAMPADO ,Body,1829,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+128,LDE,BODY VARON ESTAMPADO VELERO,Body,1821,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+129,LDE,BODY ETIQUETA NENA Y VARON ESTAMPADO ,Body,1827,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+130,LDE,BODY ESTAMPADO UNISEX MUSCULOSO,Body,1519,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+131,LDE,VESTIDO DE JERSEY FLOREADO,Vestidos,1842,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+132,LDE,CONJ NENA CONEJO C/SHORT ,Conjuntos,1839,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+133,LDE,SHORT ESCOCES,Shorts,1871,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+134,LDE,CAMISA DE JEANS VARON,Camisas,2042,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+135,LDE,CHOMBA NENE ESTAMPADA AUTITO,Chombas,2017,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+136,LDE,REMERA ESTAMPA,Remeras,OF,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+137,LDE,REMERAS VARIAS,Remerass,REMERA,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+138,LDE,CONJ NENA/VARON ALGODÓN ESTAMP,Conjuntos,1834,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+139,LDE,CONJ MUSCULOSA ADVENTURE,Conjuntos,1835,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+140,LDE,CHOMBA VARON RAYADA,Chombas,1879,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+141,LDE,VESTIDO MOÑO,Vestidos,2095,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+142,LDE,VESTIDO MOÑO CON TULL,Vestidos,2089,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+143,LDE,VESTIDO FLORIADO BORDADO,Vestidos,2063,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+144,LDE,SHORT DE JEANS C/ VOLADOS,Shorts,2044,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+145,LDE,SHORT CAMUFLADO RUSTICO VARON,Shorts,2046,ARGENTINA ,1,2,3,4,5,2018/2019,rosa, violeta,,1,T_5_front.jpg,T_5_back.jpg
+146,LDE,SHORT VARON LISO RUSTICO,Shorts,2051,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,200,T_5_front.jpg,T_5_back.jpg
+147,LDE,POLLERA JEANS APLIQUES ,Polleras,1887,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+148,LDE,BERMUDA DE JEANS VARON,Bermudas,1886,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+149,LDE,SHORT CHAMBRE NENA,Shorts,1894,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+150,LDE,JARDINERO VARON ESTAMPADO ,Body,2077,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+151,LDE,MEDIAS ESTAMPADAS,Medias,387,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+152,LDE,MEDIAS CALADAS,Medias,389,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+153,LDE,TOALLON PEPE,Toallones,382,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+154,LDE,BABERO CARITA,Baberos,381,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+155,LDE,BABERO ESTAMPADO UNISEX,Baberos,380,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+156,LDE,MANTA PLUSH,Mantas,848,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+157,LDE,MANTA DOBLE,Mantas,451,ARGENTINA ,1,2,3,4,5,2018/2019,gris, celeste, azul,,1,T_5_front.jpg,T_5_back.jpg
+158,LDE,REMERA NENA MORE BORDADA,Remeras,2020,ARGENTINA ,1,2,3,4,5,6,2018/2019,rosa, gris, negro,,300,T_5_front.jpg,T_5_back.jpg
+159,LDE,JEANS NENA BORDADO FLORES ,Jeans,1889,ARGENTINA ,1,2,3,4,5,6,2018/2019,rosa, gris, negro,,1,T_5_front.jpg,T_5_back.jpg
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<sku><![CDATA[100]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA RECIBIDORA ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[OCB]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[101]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SET RECIBIDOR COMPLETO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1920]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[102]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA AJUAR COMPLETO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1900]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[103]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA NENAS HADAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2002]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[104]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA NENAS CUPCAKES]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2004]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[105]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA VARÓN BORDADO PERRITO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2001]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[106]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA VARÓN OSO ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2003]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[107]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA GATITO HELLO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2038]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[108]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA NENA GATITO CON BODY]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2040]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[109]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA NENA BRODERY CORAZON ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2057]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[110]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA VARÓN MARINERO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2068]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[111]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA VARÓN ESTRELLA ACT]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2008]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[0 al 2]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[350]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[112]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAJA VARÓN CON BODY]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2039]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[113]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[JARDINERO CUADRO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1869]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[114]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[ENTERITO ALGON RAYADO OREJITAS ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2022]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[115]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[ENTERITO CORTO VARÓN ANIMALITOS ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2021]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[116]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[ENTERITO JERSEY ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1885]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[117]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY CAMISA ESTAMPADO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2084]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[0 al 5]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[Azul / Blanco]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[300]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[118]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY CHOMBA VARON PALMERAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2010]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[0 al 5]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[Azul / Verde]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[250]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[119]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY MUSCULOSO ESTAMPADO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2014]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[0 al 5]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[200]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[120]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY NENA LOVE LENTEJUELAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2023]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[121]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAMPERA DE JEANS C/MANGAS RUSTICO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1559]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[122]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ. INTER. NENA Y VARON CON BORDADO ESPAL]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1520]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[123]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ VARON RUSTICO PALMERAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1867]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[124]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ NENA RUSTICO ESTAMPADO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1857]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[125]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ INTERLOCK NENA CORAZONES ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1852]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[1 al 5]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[rosa/ violeta ]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[500]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[126]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY CHOMBA VARON CACTUS ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1823]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[127]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY NENA CON MOÑO ESTAMPADO ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1829]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[128]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY VARON ESTAMPADO VELERO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1821]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[129]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY ETIQUETA NENA Y VARON ESTAMPADO ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1827]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[130]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BODY ESTAMPADO UNISEX MUSCULOSO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1519]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[131]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[VESTIDO DE JERSEY FLOREADO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1842]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[132]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ NENA CONEJO C/SHORT ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1839]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[133]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SHORT ESCOCES]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1871]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[134]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CAMISA DE JEANS VARON]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2042]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[135]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CHOMBA NENE ESTAMPADA AUTITO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2017]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[136]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[REMERA ESTAMPA]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[OF]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[137]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[REMERAS VARIAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[REMERA]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[138]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ NENA/VARON ALGODÓN ESTAMP]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1834]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[139]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CONJ MUSCULOSA ADVENTURE]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1835]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[140]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[CHOMBA VARON RAYADA]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1879]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[141]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[VESTIDO MOÑO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2095]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[142]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[VESTIDO MOÑO CON TULL]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2089]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[143]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[VESTIDO FLORIADO BORDADO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2063]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[144]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SHORT DE JEANS C/ VOLADOS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2044]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[145]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SHORT CAMUFLADO RUSTICO VARON]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2046]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[146]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SHORT VARON LISO RUSTICO]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2051]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[1 al 5]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[Gris/Azul/celeste]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[200]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[147]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[POLLERA JEANS APLIQUES ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1887]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[148]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BERMUDA DE JEANS VARON]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1886]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[149]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[SHORT CHAMBRE NENA]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1894]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[150]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[JARDINERO VARON ESTAMPADO ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2077]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[151]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[MEDIAS ESTAMPADAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[387]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[152]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[MEDIAS CALADAS]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[389]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[153]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[TOALLON PEPE]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[382]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[154]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BABERO CARITA]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[381]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[155]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[BABERO ESTAMPADO UNISEX]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[380]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[156]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[MANTA PLUSH]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[848]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[157]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[MANTA DOBLE]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[451]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[158]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[REMERA NENA MORE BORDADA]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[2020]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[1 al 6]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[Rosa/Gris/Negra]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[300]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[159]]></sku>
+		<marca><![CDATA[LDE]]></marca>
+		<tipo><![CDATA[JEANS NENA BORDADO FLORES ]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[1889]]></modelo>
+		<origen><![CDATA[ARGENTINA ]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[160]]></sku>
+		<marca><![CDATA[]]></marca>
+		<tipo><![CDATA[]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[]]></modelo>
+		<origen><![CDATA[]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[2018/2019]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+	<node>
+		<sku><![CDATA[161]]></sku>
+		<marca><![CDATA[]]></marca>
+		<tipo><![CDATA[]]></tipo>
+		<categoria><![CDATA[]]></categoria>
+		<modelo><![CDATA[]]></modelo>
+		<origen><![CDATA[]]></origen>
+		<talle><![CDATA[]]></talle>
+		<temporada><![CDATA[]]></temporada>
+		<color><![CDATA[]]></color>
+		<tela><![CDATA[]]></tela>
+		<precio><![CDATA[]]></precio>
+		<imagendestacada><![CDATA[]]></imagendestacada>
+		<galeria><![CDATA[]]></galeria>
+	</node>
+</data>

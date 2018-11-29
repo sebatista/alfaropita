@@ -1,0 +1,73 @@
+/*Background color site*/
+.site
+{
+    background: #ACA5CF;
+}
+
+.subtitulos{
+    color: #ffffff;
+}
+
+.button{
+    background-color: #B1D895;
+    color: #ffffff;
+}
+
+
+.front-img{
+    position:absolute;
+    margin: auto;
+    top: 250px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    /*display: block;
+    margin: auto;*/
+}
+
+
+.back-img{
+    position:absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -1;
+    border: 2px solid rgb(177, 216, 149);
+    /*display: block;
+    margin: auto;*/
+}
+
+
+.modal-dialog {
+    width: 100%;
+    margin: 30px auto;
+}
+
+
+.product-title{
+    padding: .5em 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+
+.page-header {
+    padding: 30px 0px;
+    border-top: 1px solid #e9e9e9;
+    background: #f8f9f9;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+
+.entry-title{
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #ACA5CF;
+}
+

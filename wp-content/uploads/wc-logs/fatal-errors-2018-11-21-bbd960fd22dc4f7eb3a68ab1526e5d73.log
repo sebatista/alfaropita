@@ -1,0 +1,66 @@
+2018-11-21T15:23:40+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:4
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1933)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1933)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\i
+
+2018-11-21T20:04:14+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:51
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1938)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1938)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\
+
+2018-11-21T20:06:05+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:51
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1938)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1938)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\
+
+2018-11-21T20:07:29+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:52
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1938)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1938)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\
+
+2018-11-21T20:07:54+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:52
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1938)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1938)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\
+
+2018-11-21T20:08:35+00:00 CRITICAL Uncaught Error: Class 'Pedido' not found in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\order\order-details.php:52
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(1938)
+#3 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\alfaropita\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\templates\checkout\thankyou.php(79): do_action('woocommerce_tha...', 1938)
+#6 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce\
+

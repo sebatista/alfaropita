@@ -1,19 +1,12 @@
-#<IfModule mod_rewrite.c>
 
-# RewriteEngine on
-# RewriteCond $1 !^(index\.php)
-# RewriteRule ^(.*)$ index.php/$1 [L]
-
-#</IfModule>
-
+# BEGIN WordPress
 <IfModule mod_rewrite.c>
-
- # allow_override On
- # mod_rewrite is installed
- 
- RewriteEngine on
- RewriteCond %{REQUEST_FILENAME} !-f
- RewriteCond %{REQUEST_FILENAME} !-d
- RewriteRule ^(.*)$ index.php/$1 [L]
- 
+RewriteEngine On
+RewriteBase /alfaropita/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /alfaropita/index.php [L]
 </IfModule>
+
+# END WordPress

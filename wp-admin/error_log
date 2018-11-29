@@ -1,0 +1,12 @@
+[05-Sep-2018 19:01:16 UTC] PHP Warning:  sprintf(): Too few arguments in /home/adminalfa/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[27-Sep-2018 20:06:41 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/adminalfa/public_html/wp-content/plugins/wp-all-import/classes/PHPExcel/Reader/Excel2007.php on line 85
+[16-Oct-2018 12:58:03 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/adminalfa/public_html/wp-content/plugins/wp-all-import/classes/PHPExcel/Reader/Excel2007.php on line 85
+[16-Oct-2018 13:08:05 UTC] PHP Fatal error:  Class 'ZipArchive' not found in /home/adminalfa/public_html/wp-content/plugins/wp-all-import/classes/PHPExcel/Reader/Excel2007.php on line 85
+[16-Oct-2018 20:08:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 538
+[16-Oct-2018 20:10:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 538
+[16-Oct-2018 20:10:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 538
+[16-Oct-2018 20:12:32 UTC] PHP Warning:  Illegal string offset 'id' in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 540
+[16-Oct-2018 20:12:32 UTC] PHP Warning:  Illegal string offset 'description' in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 543
+[16-Oct-2018 20:13:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 538
+[16-Oct-2018 20:15:00 UTC] PHP Warning:  Illegal string offset 'id' in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 540
+[16-Oct-2018 20:15:00 UTC] PHP Warning:  Illegal string offset 'description' in /home/adminalfa/public_html/wp-content/plugins/woocommerce-mercadopago/woocommerce-mercadopago.php on line 543
