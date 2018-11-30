@@ -33,7 +33,9 @@ class Design extends CI_Controller
         //$categoria=$this->input->post('categoria');
         $categoria=$this->input->get('categoria');
         //$data['productos']=$this->productos->buscarTodos($categoria);
-        $data['productos']=$this->productos->buscarEditables($categoria);
+        $productos = $this->productos->buscarEditables($categoria);
+
+        $data['productos'] = $productos;
 
         $this->load->view('header');
         $this->load->view('design/productos',$data);
@@ -44,26 +46,14 @@ class Design extends CI_Controller
     //Paso 3: Recibe los datos del producto elegido.
     public function productoElegido()
     {
-        //$producto = $this->input->post('grilla');
-        $id_producto = $this->input->get('id_producto');
-        $nombre = $this->input->get('nombre');
-        $id_categoria = $this->input->get('id_categoria');
+        $productoEncontrado["id_producto"] = $id_producto = $this->input->get('id_producto');
+        $productoEncontrado["sku"] = $nombre_producto = $this->input->get('sku');
+        $productoEncontrado["nombre_producto"] = $nombre_producto = $this->input->get('nombre_producto');
+        $productoEncontrado["id_imagen"] = $url_imagen = $this->input->get('id_imagen');
+        $productoEncontrado["url_imagen"] = $url_imagen = $this->input->get('url_imagen');
+        $productoEncontrado["id_categoria"] = $id_categoria = $this->input->get('id_categoria');
 
-        //Separa el id del producto y el nombre del producto que provienen juntos separados por una coma.
-        //$id_nombre_producto=$producto["id_producto"];
-        //$datos=explode(",", $id_nombre_producto);
-
-        //Se asigna el id del producto al array.
-        //$producto["id_producto"]=$datos[0];
-
-        //Se busca el producto por su id y recibe los datos asociados (sku, id_imagen, url_imagen)
-        //ademas de los ya existentes (id_producto, id_categoria).
-        $productoEncontrado = $this->productos->buscar($id_producto, $id_categoria);
-
-        //Se asigna el nombre del producto (titulo).
-        $productoEncontrado[0]["nombre_producto"]=$nombre;
-
-        $data['productoEncontrado'] = $productoEncontrado;
+        $data['producto'] = $productoEncontrado;
 
         //Se envia a la pantalla donde se carga la imagen para recortar.
         $this->load->view('header');
@@ -79,25 +69,6 @@ class Design extends CI_Controller
         if($productoTerminado['imagenRecortada']!="")
         {
             $img = $productoTerminado['imagenRecortada'];
-
-            /*
-            $img_pedida = array(
-            'order_item_id'  => '9999',
-            'url_cropped_img' => 'johndoe@some-site.com',
-            );
-            //Setea las variables de sesion.
-            $this->session->set_userdata($img_pedida);
-            */
-
-            /*
-            echo $img;
-            list($type, $img) = explode(';', $img);
-            list(, $img)      = explode(',', $img);
-            $img = base64_decode($img);
-
-            file_put_contents('wp-content/uploads/image.png', $img);
-            $img = base64_decode(preg_replace('#^data:image/\w+;base64,#i', '', $img));
-            */
 
             //Convierte la data de la imagen en un archivo.
             if (preg_match('/^data:image\/(\w+);base64,/', $img, $type)) {
@@ -136,10 +107,6 @@ class Design extends CI_Controller
               crear el link para enviar los datos del producto al carrito.*/
             $productoTerminado['nombre_categoria'] = $this->categorias->nombreCategoria($productoTerminado);
             $data['productoTerminado'] = $productoTerminado;
-
-            //Obtiene las variables de session.
-            //$info=$this->session->all_userdata();
-            //echo $info['order_item_id'];
 
             //Se envia a la ultima vista donde se ve finalizada la edicion y con el link para añadir al carrito de compras
             $this->load->view('header');

@@ -50,14 +50,20 @@ class Productos
         $resultado=mysqli_query($db->conexion, $consulta)
         or die ("No se pueden mostrar los Productos.");
 
-        $productos = array(array("id", "post_title", "id_categoria", "nombre_categoria"));
+        $productos = array(array("id", "post_title", "id_categoria", "nombre_categoria","sku", "url_imagen"));
 
         $i=0;
         while($producto = mysqli_fetch_assoc($resultado))
         {
-            $productos[$i]["id"]=$producto["id"];
-            $productos[$i]["post_title"]=$producto["post_title"];
-            $productos[$i]["id_categoria"]=$categoria;
+            $productos[$i]["id"] = $producto["id"];
+            $productos[$i]["post_title"] = $producto["post_title"];
+            $productos[$i]["id_categoria"] = $categoria;
+
+            $productoEncontrado = $this->buscar($producto["id"]);
+
+            $productos[$i]["sku"] = $productoEncontrado["sku"];
+            $productos[$i]["id_imagen"] = $productoEncontrado["id_imagen"];
+            $productos[$i]["url_imagen"] = $productoEncontrado["url_imagen"];
             $i++;
         }
 
@@ -65,53 +71,54 @@ class Productos
     }
 
 
-    public function buscar($id_producto, $id_categoria)
+    //Busca el metakey y el meta value asociado a la imagen
+    public function buscar($id_producto)
     {
-        //$idProducto = $producto['id_producto'];
-
         $db=new database();
         $db->conectar();
 
-        $consulta=" SELECT *
-                    FROM wp_postmeta
-                    WHERE post_id = '$id_producto';";
+        $consulta = "SELECT *
+                     FROM wp_postmeta
+                     WHERE post_id = '$id_producto';";
 
         $resultado=mysqli_query($db->conexion, $consulta)
         or die ("No se pueden mostrar los Productos.");
 
-        $wp_postmeta = array(array("meta_key", "meta_value"));
+        //$wp_postmeta = array(array("meta_key", "meta_value"));
+        $wp_postmeta = array("meta_key", "meta_value");
 
-        $i=0;
+
         while($prod = mysqli_fetch_assoc($resultado))
         {
-            $wp_postmeta[$i]["meta_key"]=$prod["meta_key"];
-            $wp_postmeta[$i]["meta_value"]=$prod["meta_value"];
+            $wp_postmeta["meta_key"]=$prod["meta_key"];
+            $wp_postmeta["meta_value"]=$prod["meta_value"];
 
             if($prod["meta_key"]=="_sku"){
-                $productoEncontrado[0]["sku"] = $prod["meta_value"];
+                $productoEncontrado["sku"] = $prod["meta_value"];
             }
             if($prod["meta_key"]=="_thumbnail_id"){
-                $productoEncontrado[0]["id_imagen"] = $prod["meta_value"];
+                $productoEncontrado["id_imagen"] = $prod["meta_value"];
+                $id_imagen = $prod["meta_value"];
             }
-            $i++;
+
         }
 
-        $productoEncontrado[0]["id_producto"] = $id_producto;
-        $productoEncontrado[0]["id_categoria"] = $id_categoria;
-        $productoEncontrado[0]["url_imagen"] = $this->buscarImagen($productoEncontrado);
+        //$productoEncontrado["id_producto"] = $id_producto;
+        //$productosEncontrados[$j]["id_categoria"] = $id_categoria;
+        $productoEncontrado["url_imagen"] = $this->buscarImagen($id_imagen);
 
         return $productoEncontrado;
     }
 
 
-    public function buscarImagen($productoEncontrado)
+    //Busca la url de la imagen por medio de su id.
+    public function buscarImagen($id_imagen)
     {
-        $id_imagen = $productoEncontrado[0]["id_imagen"];
         $db=new database();
         $db->conectar();
 
-        $consulta=" SELECT * 
-                    FROM wp_postmeta 
+        $consulta=" SELECT *
+                    FROM wp_postmeta
                     WHERE post_id = '$id_imagen'
                     AND meta_key = '_wp_attached_file'";
 

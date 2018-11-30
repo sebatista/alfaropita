@@ -7,8 +7,7 @@
                     Subi tu foto
                 </div>
             </label>
-            <form method="POST" action="guardarEstampado" name="grilla">
-                <?php foreach ($productoEncontrado as $producto): ?>
+            <form method="POST" action="<?php echo base_url(); ?>guardarEstampado" name="grilla">
                     <input type="hidden" name="grilla[idProducto]" value="<?php echo $producto["id_producto"]; ?>">
                     <input type="hidden" name="grilla[nombre_producto]" value="<?php echo $producto["nombre_producto"]; ?>">
                     <input type="hidden" name="grilla[sku]" value="<?php echo $producto["sku"]; ?>">
@@ -17,7 +16,6 @@
                     <input type="hidden" name="grilla[id_categoria]" value="<?php echo $producto["id_categoria"]; ?>">
                     <input type="hidden" name="grilla[nombre_categoria]" value="">
                     <input type="hidden" name="grilla[imagenRecortada]" id="imagenRecortada" value="">
-                <?php endforeach; ?>
                 <button type="submit" class="inputLabel"><strong>Continuar</strong></button>
             </form>
         </div>
@@ -25,11 +23,9 @@
 
     <div class="row">
         <div class="col-md-12">
-            <?php foreach ($productoEncontrado as $producto): ?>
                 <!--div style="background-image: url(<?php echo base_url(); ?>wp-content/uploads/<?php echo $producto["url_imagen"]; ?>); height: 800px; width: 1000px;"-->
                 <img class="back-img" src="<?php echo base_url().'wp-content/uploads/'.$producto["url_imagen"]; ?>" >
                 <img class="front-img" id="croppedImg">
-            <?php endforeach; ?>
             </form>
         </div>
     </div>
