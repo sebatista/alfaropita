@@ -103,8 +103,6 @@ class Productos
 
         }
 
-        //$productoEncontrado["id_producto"] = $id_producto;
-        //$productosEncontrados[$j]["id_categoria"] = $id_categoria;
         $productoEncontrado["url_imagen"] = $this->buscarImagen($id_imagen);
 
         return $productoEncontrado;
@@ -117,10 +115,10 @@ class Productos
         $db=new database();
         $db->conectar();
 
-        $consulta=" SELECT *
-                    FROM wp_postmeta
-                    WHERE post_id = '$id_imagen'
-                    AND meta_key = '_wp_attached_file'";
+        $consulta = "SELECT *
+                     FROM wp_postmeta
+                     WHERE post_id = '$id_imagen'
+                     AND meta_key = '_wp_attached_file'";
 
         $resultado=mysqli_query($db->conexion, $consulta)
         or die ("No se pudo encontrar la imagen del producto.");

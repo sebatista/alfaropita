@@ -77,7 +77,7 @@ class Categorias
         $resultado=mysqli_query($db->conexion, $consulta)
         or die ("No se pueden mostrar las Categorias.");
 
-        $categorias = array(array("term_id", "name", "slug", "term_group", "term_taxonomy_id", "term_id", "taxonomy", "description", "parent", "count"));
+        $categorias = array(array("term_id", "name", "slug", "term_group", "term_taxonomy_id", "term_id", "taxonomy", "description", "parent", "count", "url_imagen"));
 
         $i=0;
         while($categoria = mysqli_fetch_assoc($resultado))
@@ -94,11 +94,43 @@ class Categorias
                 $categorias[$i]["description"]=$categoria["description"];
                 $categorias[$i]["parent"]=$categoria["parent"];
                 $categorias[$i]["count"]=$categoria["count"];
+                $categorias[$i]["url_imagen"]=$this->buscarImagen($categoria["term_id"]);
                 $i++;
             }
         }
 
         return $categorias;
+    }
+
+
+    public function buscarImagen($id_categoria)
+    {
+        $db=new database();
+        $db->conectar();
+
+        $consulta = "SELECT *
+                     FROM `wp_termmeta`
+                     WHERE term_id = $id_categoria
+                     AND meta_key = 'thumbnail_id' ;";
+
+        $resultado = mysqli_query($db->conexion, $consulta)
+        or die ("No se pudo cargar las imagenes.");
+
+        $categoria = mysqli_fetch_assoc($resultado);
+        $id_imagen = $categoria["meta_value"];//contiene el id de la imagen
+
+        $consulta = "SELECT *
+                     FROM wp_postmeta
+                     WHERE post_id = '$id_imagen'
+                     AND meta_key = '_wp_attached_file'";
+
+        $resultado=mysqli_query($db->conexion, $consulta)
+        or die ("No se pudo encontrar la imagen del producto.");
+
+        $imagen = mysqli_fetch_assoc($resultado);
+        $url_imagen = $imagen["meta_value"];//contiene al url de la imagen
+
+        return $url_imagen;
     }
 
 

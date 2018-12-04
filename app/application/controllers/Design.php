@@ -18,7 +18,6 @@ class Design extends CI_Controller
     //Paso 1: Lista las categorias de productos.
     public function listarCategorias()
     {
-        //$data['categorias']=$this->categorias->listar();
         $data['categorias']=$this->categorias->listarEditables();
 
         $this->load->view('header');
@@ -30,11 +29,8 @@ class Design extends CI_Controller
     //Paso 2: Recibe la categoria elegida y filtra los productos asociados.
     public function categoriaElegida()
     {
-        //$categoria=$this->input->post('categoria');
         $categoria=$this->input->get('categoria');
-        //$data['productos']=$this->productos->buscarTodos($categoria);
         $productos = $this->productos->buscarEditables($categoria);
-
         $data['productos'] = $productos;
 
         $this->load->view('header');
@@ -69,7 +65,6 @@ class Design extends CI_Controller
         if($productoTerminado['imagenRecortada']!="")
         {
             $img = $productoTerminado['imagenRecortada'];
-
             //Convierte la data de la imagen en un archivo.
             if (preg_match('/^data:image\/(\w+);base64,/', $img, $type)) {
                 $img = substr($img, strpos($img, ',') + 1);
@@ -98,6 +93,7 @@ class Design extends CI_Controller
 
             //Almacena la ruta de la imagen para guardarlo luego en el template "order-details".
             $_SESSION["img"] = $url;
+
             //file_put_contents("wp-content/uploads/img.{$type}", $img);
 
             //Se asocia la url de la imagen recortada al producto.
@@ -112,6 +108,7 @@ class Design extends CI_Controller
             $this->load->view('header');
             $this->load->view('design/productoTerminado', $data);
             $this->load->view('footer');
+
         }
         else{
             $this->listarCategorias();
