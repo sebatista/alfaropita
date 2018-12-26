@@ -8,6 +8,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="<?php echo base_url(); ?>scripts/crop.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+  <script src="<?php echo base_url(); ?>scripts/canvas2image.js"></script>
+  <script type="text/javascript" src="<?php echo base_url(); ?>scripts/alfaropita.js" ></script>
+
 
   <link href="<?php echo base_url(); ?>css/app.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>scripts/crop/css/fineCrop.css" rel="stylesheet">

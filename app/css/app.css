@@ -4,13 +4,24 @@
     background: #ACA5CF;
 }
 
+
 .subtitulos{
     color: #ffffff;
 }
 
+
 .button{
     background-color: #B1D895;
     color: #ffffff;
+}
+
+
+.frase-img{
+    margin: auto;
+    z-index: 1;
+    word-break:break-all;
+    white-space:normal;
+    overflow:hidden;
 }
 
 
@@ -21,7 +32,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 1;
+    z-index: -1;
     /*display: block;
     margin: auto;*/
 }
@@ -37,6 +48,15 @@
     border: 2px solid rgb(177, 216, 149);
     /*display: block;
     margin: auto;*/
+}
+
+
+.modal-frase{
+    line-height: 250px;
+    word-break: break-all;
+    white-space: normal;
+    width: 50%;
+    margin: 50px auto;
 }
 
 
@@ -71,3 +91,18 @@
     color: #ACA5CF;
 }
 
+
+.img-precargadas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    border: 3px solid #73AD21;
+    overflow-y: scroll
+}
+
+.centrar-img{
+    display: block;
+    margin: 10px auto;
+}

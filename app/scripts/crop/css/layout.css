@@ -1,6 +1,6 @@
 body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .inputLabel {
-    width: 710px;
+    /*width: 710px;*/
     height: 80px;
     /*margin: 2rem auto 0;*/
     margin: 1% auto;
@@ -13,6 +13,11 @@ body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     color: white;
     font-size: 18px;
 }
+
+.continuar {
+    width: 100%;
+}
+
 .cropInputs {
  position: fixed;
  top:0;
