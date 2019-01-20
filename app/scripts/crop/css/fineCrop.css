@@ -3,7 +3,7 @@
 /* This section is for crop section 
  * For this part, donot change the id or class names, but, you can change your css attributes as you like
  */
-.cropHolder {width: 100vw; height: 100vh; display: none;}
+.cropHolder {width: 100vw; height: 100vh; display: none; max-width: 100%;}
 #cropWrapper {position: absolute; top:0; left:0; right: 0; bottom: 0; margin: auto; width: 100vw; height: 100vh;}
 #bgCanvas {position: absolute; top:0; left:0; right: 0; bottom: 0; margin: auto;}
 #getCropped {position: absolute; top:0; left:0; right: 0; bottom: 0; margin: auto;}

@@ -17,6 +17,14 @@ class Design extends CI_Controller
     }
 
 
+    public function croppie()
+    {
+        $this->load->view('header2');
+        $this->load->view('croppie-upload');
+        $this->load->view('footer');
+    }
+
+
     //Paso 1: Lista las categorias de productos.
     public function listarCategorias()
     {

@@ -1,9 +1,9 @@
 body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 .inputLabel {
     /*width: 710px;*/
-    height: 80px;
+    /*height: 80px;*/
     /*margin: 2rem auto 0;*/
-    margin: 1% auto;
+    margin: 0 auto;
     /*border: 12px solid rgb(210, 213, 218);*/
     border: 12px solid rgb(177, 216, 149);
     text-align: center;
@@ -19,13 +19,13 @@ body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 }
 
 .cropInputs {
- position: fixed;
+ /*position: fixed;
  top:0;
  left: auto; 
  right:0; 
  width: 350px;
  height: 100vh;
- background-color: #e7e8e8;
+ background-color: #e7e8e8;*/
  text-align: center;
 }
 .inputtools p {text-indent: 1rem;}
