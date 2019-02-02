@@ -191,6 +191,25 @@ $(document).ready(function(){
         });
     });
 
+
+    $("#saveDesign").click(function() {
+        html2canvas($("#design"), {
+            onrendered: function(canvas) {
+                theCanvas = canvas;
+                //document.body.appendChild(canvas);
+
+                // Convert and download as image
+                //Canvas2Image.saveAsPNG(canvas);
+                Canvas2Image.convertToPNG(canvas);
+                var url = canvas.toDataURL();
+
+                //alert(url);
+                $("#imgDesign").val(url);
+                $("#continuar").css("display", "block");
+            }
+        });
+    });
+
 });
 
 

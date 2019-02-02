@@ -1,7 +1,7 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <label for="upload" class="btn btn-primary btn-block" style="margin: 1% 0%;">
                 Subi tu foto
             </label>
@@ -28,45 +28,26 @@
         </div>
 
         <!--div style="background-image: url(<?php echo base_url().'wp-content/uploads/'.$producto["url_imagen"]; ?>); height: 800px; width: 1000px;"-->
-        <div id="img-producto-marco" class="col-md-4 marco">
-            <img id="img-producto" class="back-img" src="<?php echo base_url().'wp-content/uploads/'.$producto["url_imagen"]; ?>">
+        <div id="img-producto-marco" class="col-md-6 marco">
+            <div id="design">
+                <img id="img-producto" class="back-img" src="<?php echo base_url().'wp-content/uploads/'.$producto["url_imagen"]; ?>">
 
-            <!--Imagen personalizada-->
-            <img id="image-preview" class="custom-img">
+                <!--Imagen personalizada-->
+                <img id="image-preview" class="custom-img">
 
-            <!--Imagen predeterminada-->
-            <img id="croppedImg" class="front-img">
+                <!--Imagen predeterminada-->
+                <img id="croppedImg" class="front-img">
 
-            <!--Frase personalizada-->
-            <div id="widget" class="escribir frase-img"> </div>
+                <!--Frase personalizada-->
+                <div id="widget" class="escribir frase-img"> </div>
 
-            <!--En este div se cargan los elementos del plugin-->
-            <div id="upload-demo">
+                <!--En este div se cargan los elementos del plugin-->
+                <div id="upload-demo">
+                </div>
             </div>
-
-            <form method="POST" action="<?php echo base_url(); ?>guardarEstampado" name="grilla">
-                <input type="hidden" name="grilla[idProducto]" value="<?php echo $producto["id_producto"]; ?>">
-                <input type="hidden" name="grilla[nombre_producto]" value="<?php echo $producto["nombre_producto"]; ?>">
-                <input type="hidden" name="grilla[sku]" value="<?php echo $producto["sku"]; ?>">
-                <!--Id de imagen del producto -->
-                <input type="hidden" name="grilla[idImagen]" value="<?php echo $producto["id_imagen"]; ?>">
-                <!--Imagen del producto -->
-                <input type="hidden" name="grilla[urlImagen]" value="<?php echo base_url(); ?>wp-content/uploads/<?php echo $producto["url_imagen"]; ?>">
-                <!--Imagen de la frase -->
-                <input type="hidden" name="grilla[urlImagenFrase]" id="imagenFrase" value="">
-                <input type="hidden" name="grilla[id_categoria]" value="<?php echo $producto["id_categoria"]; ?>">
-                <input type="hidden" name="grilla[nombre_categoria]" value="">
-                <!--Base64 de la imagen recortada -->
-                <input type="hidden" name="grilla[imagenRecortada]" id="imagenRecortada" value="">
-                <!--Id de la imagen precargada -->
-                <input type="hidden" name="grilla[idImagenPrecargada]" id="idImagenPrecargada" value="">
-                <!--URL de la imagen precargada -->
-                <input type="hidden" name="grilla[urlImagenPrecargada]" id="urlImagenPrecargada" value="">
-                <button type="submit" id="continuar" style="margin: 1% 0%;" class="continuar btn btn-primary btn-block"><strong>Continuar</strong></button>
-            </form>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <label>Escribi tu frase:</label>
             <input class="form-control" type="text" id="texto" required><br>
 
@@ -98,13 +79,34 @@
             <br>
 
             <button id="btnSave" class="btn btn-primary btn-block"> Guardar frase </button>
+
+            <!--Boton para guardar el diseño y que aparezca en el boton continuar -->
+            <button type="submit" id="saveDesign" style="margin: 1% 0%;" class="continuar btn btn-primary btn-block"><strong>Guardar dise&ntilde;o</strong></button>
+            <form method="POST" action="<?php echo base_url(); ?>guardarEstampado" name="grilla">
+                <input type="hidden" name="grilla[idProducto]" value="<?php echo $producto["id_producto"]; ?>">
+                <input type="hidden" name="grilla[nombre_producto]" value="<?php echo $producto["nombre_producto"]; ?>">
+                <input type="hidden" name="grilla[sku]" value="<?php echo $producto["sku"]; ?>">
+                <!--Id de imagen del producto -->
+                <input type="hidden" name="grilla[idImagen]" value="<?php echo $producto["id_imagen"]; ?>">
+                <!--Imagen del producto -->
+                <input type="hidden" name="grilla[urlImagen]" value="<?php echo base_url(); ?>wp-content/uploads/<?php echo $producto["url_imagen"]; ?>">
+                <!--Imagen de la frase -->
+                <input type="hidden" name="grilla[urlImagenFrase]" id="imagenFrase" value="">
+                <input type="hidden" name="grilla[id_categoria]" value="<?php echo $producto["id_categoria"]; ?>">
+                <input type="hidden" name="grilla[nombre_categoria]" value="">
+                <!--Base64 de la imagen recortada -->
+                <input type="hidden" name="grilla[imagenRecortada]" id="imagenRecortada" value="">
+                <!--Id de la imagen precargada -->
+                <input type="hidden" name="grilla[idImagenPrecargada]" id="idImagenPrecargada" value="">
+                <!--URL de la imagen precargada -->
+                <input type="hidden" name="grilla[urlImagenPrecargada]" id="urlImagenPrecargada" value="">
+
+                <!--URL de la imagen del diseño -->
+                <input type="hidden" name="grilla[imgDesign]" id="imgDesign" value="">
+                <button type="submit" id="continuar" style="margin: 1% 0%;" class="continuar btn btn-primary btn-block"><strong>Continuar</strong></button>
+            </form>
         </div>
     </div>
 
 </div>
 
-
-
-<script>
-
-</script>

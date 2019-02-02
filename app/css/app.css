@@ -12,6 +12,11 @@ input[type="file"]
     display: none;
 }
 
+#continuar
+{
+    display: none;
+}
+
 .site
 {
     background: #ACA5CF;

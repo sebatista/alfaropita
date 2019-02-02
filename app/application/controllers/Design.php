@@ -72,7 +72,7 @@ class Design extends CI_Controller
     public function guardarEstampado()
     {
         $productoTerminado = $this->input->post('grilla');
-
+        $imgDesign = $productoTerminado['imgDesign'];
         if($productoTerminado['imagenRecortada']!="" || $productoTerminado['urlImagenFrase']!="" || $productoTerminado['idImagenPrecargada']!="")
         {
             //Consulta la informacion de la imagen recortada
@@ -165,6 +165,7 @@ class Design extends CI_Controller
             /*Se busca el nombre de la categoria para asociarla al producto y
               crear el link para enviar los datos del producto al carrito.*/
             $productoTerminado['nombre_categoria'] = $this->categorias->nombreCategoria($productoTerminado);
+            $productoTerminado['design'] = $imgDesign;
             $data['productoTerminado'] = $productoTerminado;
 
 
