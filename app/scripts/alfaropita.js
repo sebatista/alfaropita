@@ -1,4 +1,4 @@
-
+/*****Frase e imagenes predeterminadas*****/
 $(document).ready(function(){
     /*FRASE*/
     $("input").keyup(function(){
@@ -191,39 +191,155 @@ $(document).ready(function(){
         });
     });
 
-
-
-    /*****CROPPIE*****/
-    var getUrl = window.location;
-    var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-
-    /*
-    var basic = $('#cropper').croppie({
-            viewport: {
-                width: 150,
-                height: 200
-            },
-            boundary: {
-                width: 300,
-                height: 300
-            }
-        });
-
-    basic.croppie('bind', {
-        url: baseUrl + '/app/scripts/croppie/demo/demo-1.jpg',
-        points: [77,469,280,739]
-    });
-
-    basic.croppie('result', 'html').then(function(html) {
-        // html is div (overflow hidden)
-        // with img positioned inside.
-    });
-    */
-
-
 });
 
 
+/*
+/!*****Controles para imagen personalizada*****!/
+$(document).ready(function(){
+    //!*****Controles para posicionar la imagen*****!/
+    //Set min y max horizontal.
+    $("#image-preview").click(function(){
+        //Obtener el alto del div que contiene la img del producto.
+        var marcoHorizontal = $("#img-producto-marco").width();
+        var alineacionX = $("#alineacionX-img-custom");
+
+        var img = new Image();
+        img.src = $("#image-preview").attr('src');
+        var anchoImg = img.width;
+
+        //Asignacion del atributo max a la barra de desplazamiento. (Pone el limite)
+        alineacionX.attr('min', '0');
+        alineacionX.attr('max', (marcoHorizontal-anchoImg));
+    });
+
+    //Movimiento horizontal
+    $("#alineacionX-img-custom").mousemove(function(){
+        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
+        $("#image-preview").css("left", $(this).val() + "px")
+    });
+
+    //Set min y max vertical.
+    $("#image-preview").click(function(){
+        //Obtener el alto del div que contiene la img del producto.
+        var marcoVertical = $("#img-producto-marco").height();
+        var alineacionY = $("#alineacionY-img-custom");
+
+        var img = new Image();
+        img.src = $("#image-preview").attr('src');
+        var altoImg = img.height;
+
+        //Asignacion del atributo max a la barra de desplazamiento. (Pone el limite)
+        alineacionY.attr('min', '0');
+        alineacionY.attr('max', marcoVertical-altoImg);
+    });
+
+    //Movimiento vertical.
+    $("#alineacionY-img-custom").mousemove(function(){
+        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
+        //alert($(this).val());
+        $("#image-preview").css("top", $(this).val() + "px")
+    });
+});
+*/
+
+
+/*****CROPPIE*****/
+var getUrl = window.location;
+var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+
+$(function () {
+    var $uploadCrop;
+
+    $(document).ready(function() {
+        //Oculto el preview hasta subir la imagen
+        $(".croppie-container").css("display", "none");
+        //Obtener el ancho del div que contiene la img del producto.
+        var marcoVerticalPreview = $("#img-producto").height();
+        //Asigna a la clase del preview (donde se muestran las fotos subidas) la altura de la imagen del producto.
+        $(".cr-boundary").css("max-height", marcoVerticalPreview + "px");
+    });
+
+    function readFile(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.upload-demo').addClass('ready');
+                $uploadCrop.croppie('bind', {
+                    url: e.target.result
+                }).then(function(){
+                    console.log('jQuery bind complete');
+                });
+
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+        else {
+            swal("Sorry - you're browser doesn't support the FileReader API");
+        }
+    }
+
+    $uploadCrop = $('#upload-demo').croppie({
+        viewport: {
+            width: 200,
+            height: 200
+        },
+        enableExif: true
+    });
+
+    $('#upload').on('change', function () {
+        readFile(this);
+        $(".croppie-container").css("display", "");
+    });
+
+    $('.upload-result').on('click', function (ev) {
+        $uploadCrop.croppie('result', {
+            type: 'base64',
+            format: 'jpg'
+        }).then(function(resp) {
+            $('#image-preview').attr('src', resp);
+            $('#imagenRecortada').val(resp);
+            $(".croppie-container").css("display", "none");
+        });
+    });
+
+
+    $( "#recortar").mouseleave(function() {
+        var marcoHorizontal = $("#img-producto").width();
+        var marcoVertical = $("#img-producto").height();
+        var alineacionX = $("#alineacionX-img-custom");
+        var alineacionY = $("#alineacionY-img-custom");
+
+        var img = new Image();
+        img.src = $("#image-preview").attr('src');
+        var anchoImg = img.width;
+        var altoImg = img.height;
+
+        alineacionX.attr('min', '50');
+        alineacionX.attr('max', (marcoHorizontal-anchoImg-50));
+        alineacionY.attr('min', '50');
+        alineacionY.attr('max', marcoVertical-altoImg-50);
+    });
+
+
+    //Movimiento horizontal de la imagen personalizada.
+    $("#alineacionX-img-custom").mousemove(function(){
+        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
+        $("#image-preview").css("left", $(this).val() + "px")
+    });
+
+    //Movimiento vertical de la imagen personalizada.
+    $("#alineacionY-img-custom").mousemove(function(){
+        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
+        //alert($(this).val());
+        $("#image-preview").css("top", $(this).val() + "px")
+    });
+
+});
+
+/*************************************************************************************************/
 
 function verImagenesPrecargadas()
 {

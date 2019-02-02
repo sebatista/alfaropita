@@ -9,13 +9,19 @@
     <div class="row">
         <div class="col-md-12">
             <!--div style="background-image: url(<?php echo $productoTerminado["urlImagen"]; ?>); height: 800px; width: 1000px;"-->
-                <input type="hidden" name="grilla[idProducto]" value="<?php echo $productoTerminado["idProducto"]; ?>">
+                <!--input type="hidden" name="grilla[idProducto]" value="<?php echo $productoTerminado["idProducto"]; ?>">
                 <input type="hidden" name="grilla[idImagen]" value="<?php echo $productoTerminado["idImagen"]; ?>">
                 <img class="back-img" style="border: 2px solid rgb(177, 216, 149);" src="<?php echo $productoTerminado["urlImagen"]; ?>" height="700" width="700">
                 <img class="front-img" style="display: block; margin: auto;" id="imagenRecortada" src="<?php echo $productoTerminado["imagenRecortada"]; ?>">
                 <img class="front-img" style="display: block; margin: auto;" id="urlImagenPrecargada" src="<?php echo $productoTerminado["urlImagenPrecargada"]; ?>">
                 <img class="frase" style="display: block; margin: auto;" src="<?php if(isset($productoTerminado["imagenFrase"])){echo $productoTerminado["imagenFrase"];} ?>">
-            </div>
+            </div-->
+            <input type="hidden" name="grilla[idProducto]" value="<?php echo $productoTerminado["idProducto"]; ?>">
+            <input type="hidden" name="grilla[idImagen]" value="<?php echo $productoTerminado["idImagen"]; ?>">
+            <img class="back-img" src="<?php echo $productoTerminado["urlImagen"]; ?>">
+            <img class="front-img" id="imagenRecortada" src="<?php echo $productoTerminado["imagenRecortada"]; ?>">
+            <img class="front-img" id="urlImagenPrecargada" src="<?php echo $productoTerminado["urlImagenPrecargada"]; ?>">
+            <img class="frase" style="display: block; margin: auto;" src="<?php if(isset($productoTerminado["imagenFrase"])){echo $productoTerminado["imagenFrase"];} ?>">
         </div>
     </div>
 </div>
