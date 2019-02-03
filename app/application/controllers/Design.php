@@ -185,7 +185,15 @@ class Design extends CI_Controller
 
     public function listarImagenesPrecargadas()
     {
-        $data['imagenes'] = $this->imagenesPrecargadas->listar();
+        $data['imagenes'] = $this->imagenesPrecargadas->listarImagenes();
+        $this->load->view('design/imagenesPrecargadas', $data);
+    }
+
+
+    public function listarRelCatImg()
+    {
+        $data['categorias'] = $this->imagenesPrecargadas->listarCategorias();
+        $data['cat_img'] = $this->imagenesPrecargadas->listarRelCatImg();
         $this->load->view('design/imagenesPrecargadas', $data);
     }
 }

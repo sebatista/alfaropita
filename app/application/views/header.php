@@ -19,7 +19,6 @@
   <link rel="stylesheet" href="<?php echo base_url(); ?>scripts/croppie/croppie.css" />
   <script src="<?php echo base_url(); ?>scripts/croppie/croppie.js"></script>
 
-
 </head>
 
 <body class="site" onload="verImagenesPrecargadas()">

@@ -374,7 +374,11 @@ function verImagenesPrecargadas()
         }
     };
 
-    xhttp.open("GET", baseUrl + "/app/design/listarImagenesPrecargadas", true);
+    //En desarrollo
+    xhttp.open("GET", baseUrl + "/app/design/listarRelCatImg", true);
+
+    //En produccion
+    //xhttp.open("GET", baseUrl + "/design/listarRelCatImg", true);
     xhttp.send();
 }
 
