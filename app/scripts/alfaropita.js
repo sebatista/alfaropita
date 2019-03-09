@@ -1,9 +1,34 @@
 /*****Frase e imagenes predeterminadas*****/
 $(document).ready(function(){
     /*FRASE*/
-    $("input").keyup(function(){
+    $("#input-1").keyup(function(){
         var bla = $(this).val();
-        $('#widget').text(bla);
+        $('#linea-1').text(bla);
+    });
+
+
+    $("#input-2").keyup(function(){
+        var bla = $(this).val();
+        $('#linea-2').text(bla);
+    });
+
+
+    $("#input-3").keyup(function(){
+        var bla = $(this).val();
+        $('#linea-3').text(bla);
+    });
+
+    var id = 1;
+    $("#newLine").click(function(){
+        if(id==1){
+            $('#input-2').css("display", "block");
+            $('#linea-2').css("display", "block");
+        }
+        if(id==2){
+            $('#input-3').css("display", "block");
+            $('#linea-3').css("display", "block");
+        }
+        id++;
     });
 
 
@@ -23,8 +48,34 @@ $(document).ready(function(){
     });
 
 
+    /*
+    $("#newLine").click(function(){
+        $('#widget').append( "<div id='newLine'>9</div>");
+        $('#newLines').append( "<input class='form-control' type='text' id='newInput' onkeyup='getNewInput()'>");
+        $('#newInput').attr('id', 'newInput-'+id);
+        $('#newLine').attr('id', 'newLine-'+id);
+        id++;
+    });
+    */
+
+    /*Posicion del texto.*/
+    $("#posicion").change(function(){
+        switch ($(this).val()){
+            case "left":
+                $(".frase-img").css("text-align", "left")
+                break;
+            case "center":
+                $(".frase-img").css("text-align", "center");
+                break;
+            case "right":
+                $(".frase-img").css("text-align", "right")
+                break;
+        }
+    });
+
+
     //Controles para posicionar (X,Y) la frase.
-    $("#texto").click(function(){
+    $("#input-1").click(function(){
         //Lo comentado es para obtener el ancho y alto de una imagen
         //var img = new Image();
         //img.src = $("#img-producto").attr('src');;
@@ -44,28 +95,6 @@ $(document).ready(function(){
 
         //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
         $(".frase-img").css("left", $(this).val() + "px")
-
-        /*Posicions absolutas, fijas.
-        switch ($(this).val()){
-            case "left":
-                $(".frase-img").css("left", "0px")
-                $(".frase-img").css("right", "")
-                break;
-            case "700":
-                $(".escribir").css("line-height", $(this).val() + "px");
-                break;
-            case "right":
-                $(".frase-img").css("right", "0px")
-                $(".frase-img").css("left", "")
-                break;
-        }
-        if($(this).val()=="right")
-        {
-            $(".frase-img").css("right", "0px")
-            $(".frase-img").css("left", "")
-
-        }
-        */
     });
 
 
@@ -75,7 +104,7 @@ $(document).ready(function(){
     });
 
 
-    $("#texto").click(function(){
+    $("#input-1").click(function(){
         //Obtener el alto del div que contiene la img del producto.
         var marcoVertical = $("#img-producto-marco").height();
         var alineacionY = $("#alineacionY");
@@ -134,12 +163,12 @@ $(document).ready(function(){
         var alineacionX = $("#alineacionX-img");
 
         var img = new Image();
-        img.src = $("#croppedImg").attr('src');;
+        img.src = $("#croppedImg").attr('src');
         var anchoImg = img.width;
 
         //Asignacion del atributo max a la barra de desplazamiento. (Pone el limite)
-        alineacionX.attr('min', '0');
-        alineacionX.attr('max', (marcoHorizontal-anchoImg));
+        alineacionX.attr('min', '160');
+        alineacionX.attr('max', (marcoHorizontal-anchoImg-160));
     });
 
 
@@ -161,8 +190,8 @@ $(document).ready(function(){
         var altoImg = img.height;
 
         //Asignacion del atributo max a la barra de desplazamiento. (Pone el limite)
-        alineacionY.attr('min', '0');
-        alineacionY.attr('max', marcoVertical-altoImg);
+        alineacionY.attr('min', '95');
+        alineacionY.attr('max', marcoVertical-altoImg-95);
     });
 
     //Movimiento vertical.
@@ -170,6 +199,11 @@ $(document).ready(function(){
         //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
         //alert($(this).val());
         $("#croppedImg").css("top", $(this).val() + "px")
+    });
+
+
+    $("#borrarImagenPrecargada").click(function() {
+        $("#croppedImg").attr("src","");
     });
 
 
@@ -279,6 +313,7 @@ $(function () {
         $(".cr-boundary").css("max-height", marcoVerticalPreview + "px");
     });
 
+
     function readFile(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
@@ -300,6 +335,7 @@ $(function () {
         }
     }
 
+
     $uploadCrop = $('#upload-demo').croppie({
         viewport: {
             width: 200,
@@ -308,10 +344,29 @@ $(function () {
         enableExif: true
     });
 
+
+    //Movimiento horizontal del area de recorte.
+    $("#alineacionX-viewport").mousemove(function(){
+        $(".cr-viewport").css("width", $(this).val() + "px")
+    });
+
+
+    //Movimiento vertical del area de recorte.
+    $("#alineacionY-viewport").mousemove(function(){
+        $(".cr-viewport").css("height", $(this).val() + "px")
+    });
+
+
     $('#upload').on('change', function () {
         readFile(this);
         $(".croppie-container").css("display", "");
     });
+
+
+    $('#upload').click(function () {
+        $(".ver-viewport").css("display", "block");
+    });
+
 
     $('.upload-result').on('click', function (ev) {
         $uploadCrop.croppie('result', {
@@ -322,6 +377,18 @@ $(function () {
             $('#imagenRecortada').val(resp);
             $(".croppie-container").css("display", "none");
         });
+    });
+
+
+    $("#borrarImagen").click(function () {
+        /*$('#upload-demo').destroy();*/
+        $('#image-preview').attr("src", "");
+    });
+
+
+    $('#recortar').click(function () {
+        $(".ver-viewport").css("display", "none");
+        $("#ctrl-cropped-img").css("display", "");
     });
 
 
@@ -336,29 +403,46 @@ $(function () {
         var anchoImg = img.width;
         var altoImg = img.height;
 
-        alineacionX.attr('min', '50');
-        alineacionX.attr('max', (marcoHorizontal-anchoImg-50));
-        alineacionY.attr('min', '50');
-        alineacionY.attr('max', marcoVertical-altoImg-50);
+        alineacionX.attr('min', '160');
+        //alineacionX.attr('max', (marcoHorizontal-anchoImg-160));
+        alineacionX.attr('max', (marcoHorizontal-anchoImg-160));
+        alineacionY.attr('min', '95');
+        alineacionY.attr('max', marcoVertical-altoImg-95);
     });
 
 
     //Movimiento horizontal de la imagen personalizada.
     $("#alineacionX-img-custom").mousemove(function(){
-        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
+        //Toma la imagen y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
         $("#image-preview").css("left", $(this).val() + "px")
     });
 
     //Movimiento vertical de la imagen personalizada.
     $("#alineacionY-img-custom").mousemove(function(){
-        //Toma la frase y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
-        //alert($(this).val());
+        //Toma la imagen y le va asignando los valores recibidos por la barra para desplazar la frase horizonalmente.
         $("#image-preview").css("top", $(this).val() + "px")
     });
 
 });
 
 /*************************************************************************************************/
+/*
+function getNewInput()
+{
+    var inputs = document.getElementsByTagName("input");
+    var lines = new Array();
+    var j = 0;
+    for (var i = 0; i < inputs.length; i++) {
+        if(inputs[i].type.toLowerCase() == 'text') {
+            //alert(inputs[i].value);
+            lines[j]=inputs[i].value
+            alert(lines[j])
+            document.getElementById("newLine-"+j).innerHTML = valor;
+            j++;
+        }
+    }
+}
+*/
 
 function verImagenesPrecargadas()
 {
@@ -375,10 +459,10 @@ function verImagenesPrecargadas()
     };
 
     //En desarrollo
-    xhttp.open("GET", baseUrl + "/app/design/listarRelCatImg", true);
+    //xhttp.open("GET", baseUrl + "/app/design/listarRelCatImg", true);
 
     //En produccion
-    //xhttp.open("GET", baseUrl + "/design/listarRelCatImg", true);
+    xhttp.open("GET", baseUrl + "/design/listarRelCatImg", true);
     xhttp.send();
 }
 

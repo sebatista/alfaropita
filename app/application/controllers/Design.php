@@ -31,6 +31,7 @@ class Design extends CI_Controller
         $data['categorias']=$this->categorias->listarEditables();
 
         $this->load->view('header');
+        $this->load->view('menu');
         $this->load->view('design/categorias',$data);
         $this->load->view('footer');
     }
@@ -73,94 +74,47 @@ class Design extends CI_Controller
     {
         $productoTerminado = $this->input->post('grilla');
         $imgDesign = $productoTerminado['imgDesign'];
+
         if($productoTerminado['imagenRecortada']!="" || $productoTerminado['urlImagenFrase']!="" || $productoTerminado['idImagenPrecargada']!="")
         {
             //Consulta la informacion de la imagen recortada
-            if($productoTerminado['imagenRecortada']!="")
-            {
-                $img = $productoTerminado['imagenRecortada'];
-                //Convierte la data de la imagen en un archivo.
-                if (preg_match('/^data:image\/(\w+);base64,/', $img, $type)) {
-                    $img = substr($img, strpos($img, ',') + 1);
-                    $type = strtolower($type[1]); // jpg, png, gif
+            $img = $productoTerminado['imgDesign'];
+            //Convierte la data de la imagen en un archivo.
+            if (preg_match('/^data:image\/(\w+);base64,/', $img, $type)) {
+                $img = substr($img, strpos($img, ',') + 1);
+                $type = strtolower($type[1]); // jpg, png, gif
 
-                    if (!in_array($type, ['jpg', 'jpeg', 'gif', 'png'])) {
-                        throw new \Exception('invalid image type');
-                    }
-
-                    $img = base64_decode($img);
-
-                    if ($img === false) {
-                        throw new \Exception('base64_decode failed');
-                    }
-                } else {
-                    throw new \Exception('did not match data URI with image data');
+                if (!in_array($type, ['jpg', 'jpeg', 'gif', 'png'])) {
+                    throw new \Exception('invalid image type');
                 }
 
+                $img = base64_decode($img);
 
-                //Se crea una variable fecha para dar nombre al archivo de imagen.
-                $fecha = date("YmdHis");
-                //Se forma la url donde esta almacenada la imagen.
-                $url = "wp-content/uploads/" . $fecha . "." . $type;
-
-                //Se guardar el archivo en la ubicacion indicada.
-                file_put_contents($url, $img);
-
-                //Almacena la ruta de la imagen para guardarlo luego en el template "order-details".
-                $_SESSION["img"] = $url;
-
-                //file_put_contents("wp-content/uploads/img.{$type}", $img);
-
-                //Se asocia la url de la imagen recortada al producto.
-                $productoTerminado['imagenRecortada'] = $url;
+                if ($img === false) {
+                    throw new \Exception('base64_decode failed');
+                }
+            } else {
+                throw new \Exception('did not match data URI with image data');
             }
 
 
-            //Consulta si existe una imagen creada para la frase
-            if($productoTerminado['urlImagenFrase']!="")
-            {
-                $frase = $productoTerminado['urlImagenFrase'];
-                //Convierte la data de la imagen en un archivo.
-                if (preg_match('/^data:image\/(\w+);base64,/', $frase, $type)) {
-                    $frase = substr($frase, strpos($frase, ',') + 1);
-                    $type = strtolower($type[1]); // jpg, png, gif
+            //Se crea una variable fecha para dar nombre al archivo de imagen.
+            $fecha = date("YmdHis");
+            //Se forma la url donde esta almacenada la imagen.
+            $url = "wp-content/uploads/" . $fecha . "." . $type;
 
-                    if (!in_array($type, ['jpg', 'jpeg', 'gif', 'png'])) {
-                        throw new \Exception('invalid image type');
-                    }
-
-                    $frase = base64_decode($frase);
-
-                    if ($frase === false) {
-                        throw new \Exception('base64_decode failed');
-                    }
-                } else {
-                    throw new \Exception('did not match data URI with image data');
-                }
-
-                //Se crea una variable fecha para dar nombre al archivo de imagen.
-                $fecha = date("YmdHis");
-                //Se forma la url donde esta almacenada la imagen.
-                $urlImagenFrase = "wp-content/uploads/" . $fecha . "-frase." . $type;
-
-                //Se guardar el archivo en la ubicacion indicada.
-                file_put_contents($urlImagenFrase, $frase);
-
-                //Almacena la ruta de la imagen de la frase para guardarla luego en el template "order-details".
-                $_SESSION["imagenFrase"] = $urlImagenFrase;
-
-                //Se asocia la url de la frase al producto.
-                $productoTerminado['imagenFrase'] = $urlImagenFrase;
-            }
-
+            //Se guardar el archivo en la ubicacion indicada.
+            file_put_contents($url, $img);
 
             //Guarda los datos de la imagen precargada
-            if($productoTerminado['urlImagenPrecargada']!="")
-            {
-                //Almacena la ruta de la imagen de la frase para guardarla luego en el template "order-details".
-                $_SESSION["img"] = $productoTerminado['urlImagenPrecargada'];
-            }
+            //Almacena la ruta de la imagen del diseño para guardarla luego en el template "order-details".
+            //wp-content/plugins/woocommerce/templates/order/order-details.php.
+            $_SESSION["img"] = $url;
 
+            //file_put_contents("wp-content/uploads/img.{$type}", $img);
+
+            //Se asocia la url de la imagen recortada al producto.
+            $productoTerminado['imagenRecortada'] = $url;
 
             /*Se busca el nombre de la categoria para asociarla al producto y
               crear el link para enviar los datos del producto al carrito.*/
@@ -173,7 +127,6 @@ class Design extends CI_Controller
             $this->load->view('header');
             $this->load->view('design/productoTerminado', $data);
             $this->load->view('footer');
-
         }
         else
             {
