@@ -149,5 +149,39 @@ class Categorias
         $categoria = mysqli_fetch_assoc($resultado);
         return $categoria["slug"];
     }
+
+
+    /*****************************CATEGORIAS DE IMAGENES PRECARGADAS*****************************/
+    public function guardarCategoria($categoria)
+    {
+        $db=new database();
+        $db->conectar();
+
+        $consulta = "INSERT INTO img_categorias(nombre) VALUES ('$categoria')";
+        $resultado = mysqli_query($db->conexion, $consulta) or die ("No se puede guardar la categoria");
+    }
+
+
+    public function listarCategoriasPredeterminadas()
+    {
+        $db=new database();
+        $db->conectar();
+
+        $consulta = "SELECT * FROM img_categorias;";
+        $resultado = mysqli_query($db->conexion, $consulta) or die ("No se pueden listar las categorias");
+
+        $categoriasPredeterminadas = array(array("id", "nombre"));
+
+        $i=0;
+        while($categoria = mysqli_fetch_assoc($resultado))
+        {
+            $categoriasPredeterminadas[$i]["id"]=$categoria["id"];
+            $categoriasPredeterminadas[$i]["nombre"]=$categoria["nombre"];
+            $i++;
+        }
+
+        return $categoriasPredeterminadas;
+    }
+
 }		
 ?>

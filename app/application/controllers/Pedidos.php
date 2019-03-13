@@ -12,10 +12,25 @@ class Pedidos extends CI_Controller
     }
 
 
+    public function login()
+    {
+        $username = $this->input->post('username');
+        $pwd = $this->input->post('pwd');
+        if($username == "adminalfa" && $pwd == "ALFAdmin")
+        {
+            $this->listar();
+        }
+        else {
+            header("Location: http://www.alfaropita.com/app");
+        }
+    }
+
+
     public function listar()
     {
         $data['pedidos'] = $this->pedido->listar();
         $this->load->view('header');
+        $this->load->view('pedidos/menu');
         $this->load->view('pedidos/listar',$data);
     }
 
@@ -54,6 +69,6 @@ class Pedidos extends CI_Controller
 
             $resultado=mysqli_query($db->conexion, $consulta) or die ("No se puede guardar el pedido.");
         }
-
     }
+
 }

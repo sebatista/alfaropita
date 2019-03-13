@@ -82,5 +82,26 @@ class ImagenesPrecargadas
 
         return $cat_img;
     }
+
+
+    public function guardarImagen($categoria, $name)
+    {
+        $db=new database();
+        $db->conectar();
+
+        //Guardar imagen
+        $consulta = "INSERT INTO img_precargadas(nombre) VALUES('$name')";
+        $resultado = mysqli_query($db->conexion, $consulta)
+        or die ("No se puede guardar la imagen.");
+        //Obtiene ultimo ID ingresado
+        $last_id = mysqli_insert_id($db->conexion);
+
+        //Guarda la relacion imagen y categoria
+        $consulta = "INSERT INTO rel_cat_img(id_categoria, id_imagen) VALUES ('$categoria', '$last_id')";
+        $resultado = mysqli_query($db->conexion, $consulta)
+        or die ("No se puede guardar la imagen.");
+
+
+    }
 }
 ?>
