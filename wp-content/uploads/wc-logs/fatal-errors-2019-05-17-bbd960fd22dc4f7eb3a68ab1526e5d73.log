@@ -1,0 +1,14 @@
+2019-05-17T11:36:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2019-05-17T11:51:33+00:00 CRITICAL Uncaught exception 'MercadoPagoException' with message 'Could not resolve host: api.mercadopago.com' in C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce-mercadopago\includes\sdk\lib\mercadopago.php:848
+Stack trace:
+#0 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce-mercadopago\includes\sdk\lib\mercadopago.php(946): MPRestClient::exec(Array, '3.0.17')
+#1 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce-mercadopago\woocommerce-mercadopago.php(537): MPRestClient::get(Array, '3.0.17')
+#2 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce-mercadopago\woocommerce-mercadopago.php(131): WC_Woo_Mercado_Pago_Module::get_categories()
+#3 C:\xampp\htdocs\alfaropita\wp-content\plugins\woocommerce-mercadopago\woocommerce-mercadopago.php(123): WC_Woo_Mercado_Pago_Module->__construct()
+#4 [internal function]: WC_Woo_Mercado_Pago_Module::init_mercado_pago_class('')
+#5 C:\xampp\htdocs\alfaropita\wp-includes\class-wp-hook.php(286): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\alfaropit
+
+2019-05-17T11:57:37+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+

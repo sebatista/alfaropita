@@ -17,15 +17,17 @@
  *
  * @package WordPress
  */
+ 
 define('WP_HOME','http://localhost/alfaropita');
 define('WP_SITEURL','http://localhost/alfaropita');
 
-define	("DB_USER","root");
-define	("DB_PASSWORD","");
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'adminalfa_wp' );
+
+define	("DB_USER","root");
+define	("DB_PASSWORD","");
 
 /** MySQL database username */
 //define( 'DB_USER', 'adminalfa_wp' );

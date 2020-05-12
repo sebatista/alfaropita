@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<undefined0><![CDATA[SKU]]></undefined0>
+		<categorias><![CDATA[Marca]]></categorias>
+		<undefined2><![CDATA[Tipo de Producto]]></undefined2>
+		<undefined3><![CDATA[Categoria]]></undefined3>
+		<atributos><![CDATA[Modelo]]></atributos>
+		<undefined5><![CDATA[Origen]]></undefined5>
+		<undefined6><![CDATA[Talles]]></undefined6>
+		<undefined7><![CDATA[Temporada]]></undefined7>
+		<undefined8><![CDATA[Colores]]></undefined8>
+		<undefined9><![CDATA[Tela]]></undefined9>
+		<undefined10><![CDATA[Precio]]></undefined10>
+		<undefined11><![CDATA[Imagen Destacada]]></undefined11>
+		<undefined12><![CDATA[Galería de Imágenes]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[100]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA RECIBIDORA ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[OCB]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[101]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SET RECIBIDOR COMPLETO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1920]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[102]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA AJUAR COMPLETO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1900]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[103]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA NENAS HADAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2002]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[104]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA NENAS CUPCAKES]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2004]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[105]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA VARÓN BORDADO PERRITO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2001]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[106]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA VARÓN OSO ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2003]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[107]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA GATITO HELLO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2038]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[108]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA NENA GATITO CON BODY]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2040]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[109]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA NENA BRODERY CORAZON ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2057]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[110]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA VARÓN MARINERO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2068]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[111]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA VARÓN ESTRELLA ACT]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2008]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[0 al 2]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[350]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[112]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAJA VARÓN CON BODY]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2039]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[113]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[JARDINERO CUADRO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1869]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[114]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[ENTERITO ALGON RAYADO OREJITAS ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2022]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[115]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[ENTERITO CORTO VARÓN ANIMALITOS ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2021]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[116]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[ENTERITO JERSEY ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1885]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[117]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY CAMISA ESTAMPADO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2084]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[0 al 5]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[Azul / Blanco]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[300]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[118]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY CHOMBA VARON PALMERAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2010]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[0 al 5]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[Azul / Verde]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[250]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[119]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY MUSCULOSO ESTAMPADO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2014]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[0 al 5]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[200]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[120]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY NENA LOVE LENTEJUELAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2023]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[121]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAMPERA DE JEANS C/MANGAS RUSTICO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1559]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[122]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ. INTER. NENA Y VARON CON BORDADO ESPAL]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1520]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[123]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ VARON RUSTICO PALMERAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1867]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[124]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ NENA RUSTICO ESTAMPADO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1857]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[125]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ INTERLOCK NENA CORAZONES ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1852]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[1 al 5]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[rosa/ violeta ]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[500]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[126]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY CHOMBA VARON CACTUS ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1823]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[127]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY NENA CON MOÑO ESTAMPADO ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1829]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[128]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY VARON ESTAMPADO VELERO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1821]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[129]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY ETIQUETA NENA Y VARON ESTAMPADO ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1827]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[130]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BODY ESTAMPADO UNISEX MUSCULOSO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1519]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[131]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[VESTIDO DE JERSEY FLOREADO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1842]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[132]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ NENA CONEJO C/SHORT ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1839]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[133]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SHORT ESCOCES]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1871]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[134]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CAMISA DE JEANS VARON]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2042]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[135]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CHOMBA NENE ESTAMPADA AUTITO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2017]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[136]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[REMERA ESTAMPA]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[OF]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[137]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[REMERAS VARIAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[REMERA]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[138]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ NENA/VARON ALGODÓN ESTAMP]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1834]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[139]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CONJ MUSCULOSA ADVENTURE]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1835]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[140]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[CHOMBA VARON RAYADA]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1879]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[141]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[VESTIDO MOÑO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2095]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[142]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[VESTIDO MOÑO CON TULL]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2089]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[143]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[VESTIDO FLORIADO BORDADO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2063]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[144]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SHORT DE JEANS C/ VOLADOS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2044]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[145]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SHORT CAMUFLADO RUSTICO VARON]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2046]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[146]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SHORT VARON LISO RUSTICO]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2051]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[1 al 5]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[Gris/Azul/celeste]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[200]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[147]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[POLLERA JEANS APLIQUES ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1887]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[148]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BERMUDA DE JEANS VARON]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1886]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[149]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[SHORT CHAMBRE NENA]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1894]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[150]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[JARDINERO VARON ESTAMPADO ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2077]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[151]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[MEDIAS ESTAMPADAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[387]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[152]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[MEDIAS CALADAS]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[389]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[153]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[TOALLON PEPE]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[382]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[154]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BABERO CARITA]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[381]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[155]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[BABERO ESTAMPADO UNISEX]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[380]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[156]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[MANTA PLUSH]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[848]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[157]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[MANTA DOBLE]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[451]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[158]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[REMERA NENA MORE BORDADA]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[2020]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[1 al 6]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[Rosa/Gris/Negra]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[300]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[159]]></undefined0>
+		<categorias><![CDATA[LDE]]></categorias>
+		<undefined2><![CDATA[JEANS NENA BORDADO FLORES ]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[1889]]></atributos>
+		<undefined5><![CDATA[ARGENTINA ]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[160]]></undefined0>
+		<categorias><![CDATA[]]></categorias>
+		<undefined2><![CDATA[]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[]]></atributos>
+		<undefined5><![CDATA[]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[2018/2019]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+	<node>
+		<undefined0><![CDATA[161]]></undefined0>
+		<categorias><![CDATA[]]></categorias>
+		<undefined2><![CDATA[]]></undefined2>
+		<undefined3><![CDATA[]]></undefined3>
+		<atributos><![CDATA[]]></atributos>
+		<undefined5><![CDATA[]]></undefined5>
+		<undefined6><![CDATA[]]></undefined6>
+		<undefined7><![CDATA[]]></undefined7>
+		<undefined8><![CDATA[]]></undefined8>
+		<undefined9><![CDATA[]]></undefined9>
+		<undefined10><![CDATA[]]></undefined10>
+		<undefined11><![CDATA[]]></undefined11>
+		<undefined12><![CDATA[]]></undefined12>
+	</node>
+</data>

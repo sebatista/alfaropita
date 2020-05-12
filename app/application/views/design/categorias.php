@@ -2,7 +2,7 @@
 
 <div class="page-header">
     <div class="container">
-        <span class="entry-title">Elegi una categoria</span>
+        <span class="entry-title">Elegi una categoria, por favorrr</span>
     </div>
 </div>
 
